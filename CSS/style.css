@@ -1,18 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.nav-link, .mynavbar{
-
-color: rgb(221, 221, 230) ;
-
+.nav-link {
+  color: rgb(221, 221, 230);
 }
 
-.myfooter div div div p{
-    
-    box-sizing: border-box;
-    align-items: center; 
-
+.mynavbar {
+  color: rgb(221, 221, 230);
 }
 
+.myfooter {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
