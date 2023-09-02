@@ -16,44 +16,77 @@
 
 <body class="my-body-blog">
 
-  <!-- <div><img class="card-img img-fluid max-width: 100%" src="../imagenes/img_electronica.jpg" alt="Imagen De Portada"></div>  -->
-  
   <header class="my-header">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="mynavbar nav-link active" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="mynavbar nav-link" href="../paginas/Entrada-del-blog.html">Blog personal</a>
-            </li>
-            <li class="nav-item">
-              <a class="mynavbar nav-link" href="#">Pricing</a>
-            </li>
-          
-          </ul>
+    <div class=""> <!--card-img-overlay hace que el navbar sea invisible al resto-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container-fluid">
+          <a class="mynavbar navbar-brand" href="../index.html">inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link " href="../paginas/Entrada-del-blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/nosotros.html">Carta de presentación</a>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
   </header>
 
   <main>
 
-   
-      <!-- <div class="row g-0">
-        <div class="col-md-4  ">
+    <section class="my-section-blog row">
+
+        <div class="card col-4" style="width: 18rem">
+
+          <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+          <div class="card-body">
+            <h5 class="card-title text-center">Programas de Python</h5>
+            <p class="card-text">Aquí encontrará ejercicios resueltos usando código de programacon Python.</p>
+            <a href="#" class="btn btn-primary">Hacia Python</a>
+          </div>
+        </div>
+
+        <div class="card col-4" style="width: 18rem">
+
+          <img src="../imagenes/html-css-logo.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+          <div class="card-body">
+            <h5 class="card-title text-center">Páginas ejemplos con HTML y CSS</h5>
+            <p class="card-text">Aquí encontrará varios modelos de páginas web </p>
+            <a href="#" class="btn btn-primary">Hacia HTML</a>
+          </div>
+
+        </div>
+
+        <div class="card col-4" style="width: 18rem">
+
+          <img src="../imagenes/LTspice.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+          <div class="card-body">
+            <h5 class="card-title text-center">Simulación con LTspice</h5>
+            <p class="card-text">Aquí encontrará simulaciones usando el programa LTspice</p>
+            <a href="#" class="btn btn-primary">Hacia LTspice</a>
+          </div>
+
+        </div>
+
+
+    </section >
+
+    <!-- <section class="section2">
+
+    <div class="row g-0">
+        <div class="col-md-4">
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Mis Programas de Python</h5>
+            <h5 class="card-title">Proyectos en el tintero</h5>
             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda cum aspernatur
               expedita odio aperiam ducimus, nesciunt, ex facere optio neque vero cupiditate qui iste praesentium
               perferendis excepturi incidunt eos dolore vitae eum molestiae eius, est doloribus? Labore architecto
@@ -64,58 +97,11 @@
           </div>
         </div>
       </div>
-    </div>  -->
+    </div> 
 
-    <!-- <section class="row">
 
-      <div class="card col-3" style="width: 18rem">
-
-        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
-        <div class="card-body">
-          <h5 class="card-title text-center">Programas utilizando Python</h5>
-          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
-            mayor parte del contenido de la tarjeta.</p>
-          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-        </div>
-
-      </div>
-
-      <div class="card col-3" style="width: 18rem">
-
-        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
-        <div class="card-body">
-          <h5 class="card-title text-center">Programas utilizando Python</h5>
-          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
-            mayor parte del contenido de la tarjeta.</p>
-          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-        </div>
-
-      </div>
-
-      <div class="card col-3" style="width: 18rem">
-
-        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
-        <div class="card-body">
-          <h5 class="card-title text-center">Programas utilizando Python</h5>
-          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
-            mayor parte del contenido de la tarjeta.</p>
-          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-        </div>
-
-      </div>
-
-      <div class="card col-3" style="width: 18rem">
-
-        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
-        <div class="card-body">
-          <h5 class="card-title text-center">Programas utilizando Python</h5>
-          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
-            mayor parte del contenido de la tarjeta.</p>
-          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
-        </div>
 
     </section> -->
-
 
   </main>
 
@@ -125,7 +111,7 @@
 
 
 
-  <!-- <footer class="myfooter bg-dark text-light w-100 h-auto">
+  <footer class="myfooter bg-dark text-light w-100 h-auto">
     <div class="container text-center text-md-start">
       <div class="row text-center text-md-start">
 
@@ -142,7 +128,7 @@
 
 
 
-  </footer> -->
+  </footer>
 
 
 
