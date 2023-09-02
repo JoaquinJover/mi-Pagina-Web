@@ -15,9 +15,27 @@
   display: flex;
   flex-direction: column;
 }
-
-p {
+.myfooter p {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
+}
+
+.my-body-blog {
+  background-image: url(../../imagenes/img_electronica.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+}
+
+.my-body-index {
+  background-image: url(../imagenes/imagen-de-fondo-v2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+}
+
+.main-index {
+  background-color: rgb(228, 214, 214);
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

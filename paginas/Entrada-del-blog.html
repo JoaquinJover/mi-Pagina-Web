@@ -1,62 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página web</title>
 
-        <link rel="icon" href="../imagenes/screwdriver-wrench-solid.svg" >
-        <script src="https://kit.fontawesome.com/22b8e0b5b2.js" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="../CSS/style.css">
-    </head>
-    <body>
-        
-        <header>
-            
-            <nav class="navbar navbar-expand-lg navbar-dark bg-white">
-                <div class="container-fluid">
-                <a class="mynavbar navbar-brand" href="../index.html">inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../paginas/nosotros.html">Carta de presentación</a>
-                    </ul>
-                </div>
-                </div>
-            </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página web</title>
 
-        </header>
+  <link rel="icon" href="../imagenes/screwdriver-wrench-solid.svg">
+  <script src="https://kit.fontawesome.com/22b8e0b5b2.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body class="my-body-blog">
+
+  <!-- <div><img class="card-img img-fluid max-width: 100%" src="../imagenes/img_electronica.jpg" alt="Imagen De Portada"></div>  -->
+  
+  <header class="my-header">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="mynavbar nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="mynavbar nav-link" href="../paginas/Entrada-del-blog.html">Blog personal</a>
+            </li>
+            <li class="nav-item">
+              <a class="mynavbar nav-link" href="#">Pricing</a>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+   
+      <!-- <div class="row g-0">
+        <div class="col-md-4  ">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Mis Programas de Python</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda cum aspernatur
+              expedita odio aperiam ducimus, nesciunt, ex facere optio neque vero cupiditate qui iste praesentium
+              perferendis excepturi incidunt eos dolore vitae eum molestiae eius, est doloribus? Labore architecto
+              excepturi beatae tempora magnam quisquam molestiae quia, aperiam animi nesciunt esse eius corporis quidem
+              earum, ab corrupti, quo facere voluptatum deserunt autem adipisci maiores vero! Assumenda illum dolores ut
+              facere, placeat omnis aut rerum at porro dolor sunt dicta. Repellendus, voluptas nisi!</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>  -->
+
+    <!-- <section class="row">
+
+      <div class="card col-3" style="width: 18rem">
+
+        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+        <div class="card-body">
+          <h5 class="card-title text-center">Programas utilizando Python</h5>
+          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
+            mayor parte del contenido de la tarjeta.</p>
+          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+        </div>
+
+      </div>
+
+      <div class="card col-3" style="width: 18rem">
+
+        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+        <div class="card-body">
+          <h5 class="card-title text-center">Programas utilizando Python</h5>
+          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
+            mayor parte del contenido de la tarjeta.</p>
+          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+        </div>
+
+      </div>
+
+      <div class="card col-3" style="width: 18rem">
+
+        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+        <div class="card-body">
+          <h5 class="card-title text-center">Programas utilizando Python</h5>
+          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
+            mayor parte del contenido de la tarjeta.</p>
+          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+        </div>
+
+      </div>
+
+      <div class="card col-3" style="width: 18rem">
+
+        <img src="../imagenes/python portada.jpg" class="img-thumbnail img-fluid " alt="Icono de Python">
+        <div class="card-body">
+          <h5 class="card-title text-center">Programas utilizando Python</h5>
+          <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la
+            mayor parte del contenido de la tarjeta.</p>
+          <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+        </div>
+
+    </section> -->
 
 
-        <footer class="myfooter bg-dark text-light w-100 h-auto">
-            <div class="container text-center text-md-start">
-              <div class="row text-center text-md-start">
-        
-                <div>
-                  <h5 class="text-center h-auto">CONTACTOS</h5>
-        
-                  <p><i class="icono fa-solid fa-envelope fa-2x"></i> joverjoaquin994@gmail.com</p>
-                  <p><i class="icono fa-regular fa-message fa-2x"></i> Cel: 3512616910</p>
-                  <p><i class="icono fa-solid fa-paperclip fa-2x"></i> www.linkedin.com/in/joaquin-jover</p>
-                  <p><i class="icono fa-solid fa-paperclip fa-2x"></i> www.linkedin.com/in/joaquin-jover</p>
-                </div>
-        
-              </div>
-            </div>
-        
-        
-        
-          </footer>
+  </main>
 
 
-    </body>
+
+
+
+
+
+  <!-- <footer class="myfooter bg-dark text-light w-100 h-auto">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+
+        <div>
+          <h5 class="text-center h-auto">CONTACTOS</h5>
+
+          <p><i class="icono fa-solid fa-envelope fa-beat fa-2x"></i> joverjoaquin994@gmail.com</p>
+          <p><i class="icono fa-solid fa-message fa-beat fa-2x"></i> Cel: 3512616910</p>
+          <p><i class="icono fa-solid fa-paperclip fa-beat fa-2x"></i> www.linkedin.com/in/joaquin-jover</p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </footer> -->
+
+
+
+</body>
+
 </html>
