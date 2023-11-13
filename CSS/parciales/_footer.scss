@@ -2,14 +2,23 @@
 
 display: flex;
 flex-direction: column;
+background-color: rgba(185, 204, 221, 0.05);
 
-    p {
-        display: flex;
-        align-items: center;
-        gap: 15px;
+    h5{
+        display: inline-flex;
+        color: yellowgreen
     }
 
-    
+    p {
+        
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+        
+    }
+    position: absolute;
+    bottom: 0;
     
 }
 

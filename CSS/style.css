@@ -14,10 +14,18 @@
 .myfooter {
   display: flex;
   flex-direction: column;
+  background-color: rgba(185, 204, 221, 0.05);
+  position: absolute;
+  bottom: 0;
+}
+.myfooter h5 {
+  display: inline-flex;
+  color: yellowgreen;
 }
 .myfooter p {
   display: flex;
   align-items: center;
+  width: 100%;
   gap: 15px;
 }
 
@@ -26,7 +34,8 @@ body footer {
 }
 
 .my-body-blog {
-  background-image: url(../../imagenes/img_electronica.jpg);
+  background-image: url(../imagenes/img_electronica.jpg);
+  background-image: url(../imagenes/fondo\ pizarron\ \ verde.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: auto;
@@ -44,7 +53,14 @@ body footer {
   height: auto;
 }
 
-.main-index {
+.my-body-carta {
+  background-image: url(../imagenes/electronica-digital-aplicaciones.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+}
+
+.section1 {
   background-color: rgb(228, 214, 214);
   border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
