@@ -30,8 +30,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url(../imagenes/img_electronica.jpg);
-  background-image: url(../imagenes/fondo\ pizarron\ \ verde.jpg);
+  background-color: rgba(5, 29, 5, 0.884);
   background-repeat: no-repeat;
   background-size: 600%;
 }
@@ -44,7 +43,7 @@
 section div img {
   margin-top: 30px;
   padding-left: 20px;
-  width: 20%;
+  width: 10%;
   height: auto;
 }
 
