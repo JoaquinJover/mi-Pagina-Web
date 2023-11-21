@@ -12,11 +12,8 @@
 }
 
 .myfooter {
-  display: flex;
-  flex-direction: column;
+  margin-top: auto;
   background-color: rgba(185, 204, 221, 0.05);
-  position: absolute;
-  bottom: 0;
 }
 .myfooter h5 {
   display: inline-flex;
@@ -29,16 +26,14 @@
   gap: 15px;
 }
 
-body footer {
-  margin-top: 100px;
-}
-
 .my-body-blog {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-image: url(../imagenes/img_electronica.jpg);
   background-image: url(../imagenes/fondo\ pizarron\ \ verde.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: auto;
+  background-size: 600%;
 }
 
 .my-section-blog {
@@ -46,7 +41,17 @@ body footer {
   gap: 30px;
 }
 
+section div img {
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 20%;
+  height: auto;
+}
+
 .my-body-index {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-image: url(../imagenes/imagen-de-fondo-v2.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -54,6 +59,9 @@ body footer {
 }
 
 .my-body-carta {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-image: url(../imagenes/electronica-digital-aplicaciones.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -61,6 +69,20 @@ body footer {
 }
 
 .section1 {
-  background-color: rgb(228, 214, 214);
   border-radius: 10px;
+}
+.section1 div {
+  background-color: rgba(185, 204, 221, 0.8);
+}
+
+.ver {
+  display: flex;
+}
+
+.miFoto {
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 300px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

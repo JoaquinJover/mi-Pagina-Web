@@ -1,7 +1,7 @@
 .myfooter {
-
-display: flex;
-flex-direction: column;
+    margin-top: auto;
+// display: flex;
+// flex-direction: column;
 background-color: rgba(185, 204, 221, 0.05);
 
     h5{
@@ -17,8 +17,8 @@ background-color: rgba(185, 204, 221, 0.05);
         gap: 15px;
         
     }
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
     
 }
 
