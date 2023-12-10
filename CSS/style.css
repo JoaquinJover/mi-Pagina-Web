@@ -55,7 +55,7 @@ main section {
   padding: 15px 15px;
 }
 .section3 div div div {
-  border: 2px inset powderblue;
+  border: 2px double powderblue;
   height: auto;
 }
 .section3 div div div span {
