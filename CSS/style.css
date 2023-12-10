@@ -36,20 +36,11 @@ main section {
 }
 
 .section2 {
-  background-color: darkgreen;
+  background-image: url("/imagenes/fondo-pizarron-verde.jpg");
   background-repeat: repeat-y;
   width: 100%;
   background-size: 100%;
   min-height: 100vh;
-}
-.section2 h4 {
-  color: black;
-}
-.section2 p {
-  color: black;
-}
-.section2 li {
-  color: black;
 }
 
 .material-symbols-outlined {
@@ -64,7 +55,7 @@ main section {
   padding: 15px 15px;
 }
 .section3 div div div {
-  border: 3px solid salmon;
+  border: 2px inset powderblue;
   height: auto;
 }
 .section3 div div div span {
