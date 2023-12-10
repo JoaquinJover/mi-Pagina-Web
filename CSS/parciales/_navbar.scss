@@ -1,13 +1,48 @@
-.navbar{
+header {
+    div {
+        display: flex;
+        justify-content: center;
+
+        img {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 210px;
+            height: 200px;
+            border-radius: 48%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.navbar {
     width: auto;
     border: none;
     max-height: 100vh;
 
-    ul{
-        li{
+    ul {
+        li {
             width: 169px;
             height: 54px;
             border-bottom: 2px solid rgba(0, 0, 0, 0.075);
         }
     }
+}
+
+.carousel-inner{
+    span {
+        z-index: 2;
+        position: absolute;
+        left: 10%;
+        font-size: 40px;
+        color: rgb(255, 115, 0);
+    }
+}
+
+.texto-saludo {
+    top: 30%;
+}
+
+.texto-nombre {
+    top: 40%;
 }
