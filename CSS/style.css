@@ -42,6 +42,15 @@ main section {
   background-size: 100%;
   min-height: 100vh;
 }
+.section2 h4 {
+  color: black;
+}
+.section2 p {
+  color: black;
+}
+.section2 li {
+  color: black;
+}
 
 .material-symbols-outlined {
   font-size: 45px;
