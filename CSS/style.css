@@ -65,7 +65,6 @@ main section {
 }
 
 .section2 {
-  background-image: url("../../imagenes/fondo-pizarron-verde.jpg");
   background-image: url("../imagenes/fondo-pizarron-verde.jpg");
   background-color: darkgreen;
   background-repeat: repeat-y;
