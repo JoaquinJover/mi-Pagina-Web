@@ -1,0 +1,88 @@
+.navbar {
+  width: auto;
+  border: none;
+  max-height: 100vh;
+}
+.navbar ul li {
+  width: 169px;
+  height: 54px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+}
+
+.col-3 {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+}
+
+.col-9 {
+  padding: 0;
+  max-width: 100%;
+}
+
+.carousel-inner div img {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.section-width {
+  min-height: 100vh;
+}
+
+main section {
+  max-width: 100%;
+  border: 2px solid lawngreen;
+  min-height: 100vh;
+}
+
+.section2 {
+  background-image: url("/imaganes/imagen2.jpg");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+}
+
+.material-symbols-outlined {
+  font-size: 45px;
+  vertical-align: bottom;
+}
+
+.section3 {
+  background-color: whitesmoke;
+}
+.section3 h4 {
+  padding: 15px 15px;
+}
+.section3 div div div {
+  border: 3px solid salmon;
+  height: auto;
+}
+.section3 div div div span {
+  width: auto;
+  height: auto;
+}
+.section3 div div div h4 {
+  padding: 0;
+  display: inline;
+}
+.section3 div div div p {
+  margin-top: 20px;
+}
+
+.section-sobreMi div {
+  color: whitesmoke;
+  display: table;
+  min-height: 100vh;
+}
+.section-sobreMi div div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 30px;
+}
+.section-sobreMi div div ul li {
+  list-style-type: none;
+}
+.section-sobreMi div div ul li span {
+  display: inline-block;
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */

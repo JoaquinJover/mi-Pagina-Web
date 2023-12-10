@@ -1,0 +1,62 @@
+.section-width {
+    min-height: 100vh;
+}
+
+
+main {
+    section {
+        max-width: 100%;
+        border: 2px solid lawngreen;
+        min-height: 100vh;
+    }
+}
+
+.section2 {
+
+    background-image: url("/imaganes/imagen2.jpg");
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+}
+
+//seccion 3
+
+// iconos de la seccion 3
+
+.material-symbols-outlined{
+font-size: 45px;
+vertical-align: bottom;
+}
+
+
+.section3 {
+    background-color: whitesmoke;
+
+    h4 {
+        padding: 15px 15px;
+    }
+
+    div {
+        div {
+            div {
+                // display: flex;
+                 border: 3px solid salmon;
+                height: auto;
+
+                span{
+                    width:auto;
+                    height: auto;
+                }
+
+                h4{
+                    padding: 0;
+                    display: inline;
+                }
+
+                p{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
