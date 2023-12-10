@@ -1,5 +1,4 @@
 .navbar {
-  z-index: -6;
   width: auto;
   border: none;
   max-height: 100vh;
@@ -36,7 +35,7 @@ main section {
 }
 
 .section2 {
-  background-image: url("/imagenes/fondo-pizarron-verde.jpg");
+  background-image: url("../imagenes/fondo-pizarron-verde.jpg");
   background-repeat: repeat-y;
   width: 100%;
   background-size: 100%;
