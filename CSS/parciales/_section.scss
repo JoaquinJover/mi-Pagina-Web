@@ -14,6 +14,7 @@ main {
 .section2 {
     
     background-image: url("../../imagenes/fondo-pizarron-verde.jpg");
+    background-image: url("../imagenes/fondo-pizarron-verde.jpg"); //no anda el maldito
     background-color: darkgreen;
     background-repeat: repeat-y;
     width: 100%;
@@ -79,7 +80,7 @@ vertical-align: bottom;
 
 
 .section6{
-    background-image: url("../imagenes/fondo-blog.jpg");
+    background-image: url("../imagenes/fondo-blog.jpg"); //no tocar esta ruta
     background-repeat: repeat-y;
 
     // div{
