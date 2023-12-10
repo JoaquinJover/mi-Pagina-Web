@@ -6,17 +6,19 @@
 main {
     section {
         max-width: 100%;
-        border: 2px solid lawngreen;
+        // border: 2px solid lawngreen;
         min-height: 100vh;
     }
 }
 
 .section2 {
 
-    background-image: url("/imaganes/imagen2.jpg");
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100%;
+    background-image: url("/imagenes/fondo\ pizarron\ \ verde.jpg");
+    background-repeat: repeat-y;
+    
+    width: 100%;
+    background-size: 100%;
+    min-height: 100vh;
 }
 
 //seccion 3

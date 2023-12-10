@@ -1,87 +1,103 @@
-* {
-  margin: 0;
+.navbar {
+  z-index: -6;
+  width: auto;
+  border: none;
+  max-height: 100vh;
+}
+.navbar ul li {
+  width: 169px;
+  height: 54px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+}
+
+.col-3 {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+}
+
+.col-9 {
   padding: 0;
+  max-width: 100%;
 }
 
-.nav-link {
-  color: rgb(221, 221, 230);
+.carousel-inner div img {
+  max-width: 100%;
+  min-height: 100vh;
 }
 
-.mynavbar {
-  color: rgb(221, 221, 230);
+.section-width {
+  min-height: 100vh;
 }
 
-.myfooter {
-  margin-top: auto;
-  background-color: rgba(185, 204, 221, 0.05);
+main section {
+  max-width: 100%;
+  min-height: 100vh;
 }
-.myfooter h5 {
-  display: inline-flex;
-  color: yellowgreen;
-}
-.myfooter p {
-  display: flex;
-  align-items: center;
+
+.section2 {
+  background-image: url("/imagenes/fondo pizarron  verde.jpg");
+  background-repeat: repeat-y;
   width: 100%;
-  gap: 15px;
-}
-
-.my-body-blog {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: rgba(5, 29, 5, 0.884);
-  background-repeat: no-repeat;
-  background-size: 600%;
-}
-
-.my-section-blog {
-  padding-left: 35px;
-  gap: 30px;
-}
-
-section div img {
-  margin-top: 30px;
-  padding-left: 20px;
-  width: 392px;
-  height: 129px;
-}
-
-.my-body-index {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-image: url(/imagenes/imagen-de-fondo-v2.jpg);
-  background-repeat: no-repeat;
   background-size: 100%;
-  height: auto;
-}
-
-.my-body-carta {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-  background-image: url(/imagenes/electronica-digital-aplicaciones.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+}
+
+.material-symbols-outlined {
+  font-size: 45px;
+  vertical-align: bottom;
+}
+
+.section3 {
+  background-color: whitesmoke;
+}
+.section3 h4 {
+  padding: 15px 15px;
+}
+.section3 div div div {
+  border: 3px solid salmon;
   height: auto;
 }
-
-.section1 {
-  border-radius: 10px;
-}
-.section1 div {
-  background-color: rgba(185, 204, 221, 0.8);
-}
-
-.ver {
-  display: flex;
-}
-
-.miFoto {
-  border-radius: 50%;
-  padding-top: 30px;
-  padding-left: 20px;
-  width: 300px;
+.section3 div div div span {
+  width: auto;
   height: auto;
+}
+.section3 div div div h4 {
+  padding: 0;
+  display: inline;
+}
+.section3 div div div p {
+  margin-top: 20px;
+}
+
+.section-sobreMi div {
+  color: whitesmoke;
+  display: table;
+  min-height: 100vh;
+}
+.section-sobreMi div div {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 30px;
+}
+.section-sobreMi div div ul li {
+  list-style-type: none;
+}
+.section-sobreMi div div ul li span {
+  display: inline-block;
+  width: 200px;
+}
+
+footer {
+  float: right;
+  width: 557.25px;
+  height: 50px;
+  border: 3px solid lawngreen;
+}
+
+footer {
+  float: right;
+  width: 557.25px;
+  height: 50px;
+  border: 3px solid lawngreen;
 }/*# sourceMappingURL=style.css.map */

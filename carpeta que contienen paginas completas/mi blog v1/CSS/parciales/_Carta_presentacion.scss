@@ -1,0 +1,35 @@
+.my-body-carta{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+    background-image: url(/imagenes/electronica-digital-aplicaciones.jpg); 
+    // background-position: center;
+    //  background-size: cover;
+      background-repeat: no-repeat;
+    background-size: 100%; 
+      height: auto;
+}
+
+.section1{ 
+
+    border-radius: 10px;
+
+    div{
+      background-color: rgba(185, 204, 221, 0.8);
+    }
+    
+}
+
+.ver{
+  display: flex;
+}
+
+.miFoto{
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 300px;
+  height: auto;
+
+
+}

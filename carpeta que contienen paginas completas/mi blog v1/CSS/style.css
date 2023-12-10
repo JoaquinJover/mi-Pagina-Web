@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: rgb(221, 221, 230);
+}
+
+.mynavbar {
+  color: rgb(221, 221, 230);
+}
+
+.myfooter {
+  margin-top: auto;
+  background-color: rgba(185, 204, 221, 0.05);
+}
+.myfooter h5 {
+  display: inline-flex;
+  color: yellowgreen;
+}
+.myfooter p {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.my-body-blog {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(5, 29, 5, 0.884);
+  background-repeat: no-repeat;
+  background-size: 600%;
+}
+
+.my-section-blog {
+  padding-left: 35px;
+  gap: 30px;
+}
+
+section div img {
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 392px;
+  height: 129px;
+}
+
+.my-body-index {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(/imagenes/imagen-de-fondo-v2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+}
+
+.my-body-carta {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(/imagenes/electronica-digital-aplicaciones.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+}
+
+.section1 {
+  border-radius: 10px;
+}
+.section1 div {
+  background-color: rgba(185, 204, 221, 0.8);
+}
+
+.ver {
+  display: flex;
+}
+
+.miFoto {
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 300px;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
