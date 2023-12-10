@@ -36,7 +36,7 @@ main section {
 }
 
 .section2 {
-  background-image: url("/imagenes/fondo pizarron  verde.jpg");
+  background-image: url("/imagenes/fondo-pizarron-verde.jpg");
   background-repeat: repeat-y;
   width: 100%;
   background-size: 100%;
@@ -86,13 +86,6 @@ main section {
 .section-sobreMi div div ul li span {
   display: inline-block;
   width: 200px;
-}
-
-footer {
-  float: right;
-  width: 557.25px;
-  height: 50px;
-  border: 3px solid lawngreen;
 }
 
 footer {
