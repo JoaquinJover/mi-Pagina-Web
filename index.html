@@ -17,14 +17,14 @@
 </head>
 
 <body>
-
+<main>
   <div class="container-fluid">
 
     <div class="row">
       <div class="col-3">
         <header>
           <div>
-            <a href="#Active"> <img class="myfoto" src="imagenes/Joaquin.jpg"alt="foto carnet del CV"></a>
+            <a href="#Active"> <img class="myfoto" src="imagenes/Joaquin.jpg" alt="foto carnet del CV"></a>
           </div>
 
           <div class="navbar ">
@@ -41,9 +41,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#Educacion">Educación</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#Portafolio">Portafolio</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#Blog">Blog</a>
               </li>
@@ -113,56 +113,133 @@
                 </ul>
               </div>
             </div>
-          </section>
+          </section>   
 
           <section id="Habilidades" class="section3">
             <h4>Habilidades</h4>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-4">
-                  <span class="material-symbols-outlined">lan</span>
-                  <h4>Enrutamiento CCNA</h4>
-                  <p>todo lo relacionado a protocolos ipv4; ipv6; redes VLAN</p>
-                </div>
-                <div class="col-4">
-                  <span class="material-symbols-outlined">design_services</span>
-                  <h4>Diseño con LTspice</h4>
-                  <p>Para simular circuitos electrónicos utilizo LTSpice y MultiSim.</p>
-                </div>
-                <div class="col-4">
-                  <span class="material-symbols-outlined">html</span>
-                  <h4>Programación en HTML</h4>
-                  <p>programador de paginas web con lenguaje de marcado de hipertexto</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 bordes">
+              <div class="col">
+                <div class="card">
+                  <img src="/imagenes/tcp-ip.jpg" class="card-img-top" alt="imagen de protocolo TCP/IP">
+                  <div class="card-body">
+                    <h5 class="card-title">Enrutamiento TCP/IP</h5>
+                    <p class="card-text">conocimientos de protocolos ipv4, ipv6, redes VLAN.</p>
+                  </div>
                 </div>
               </div>
-
-              <div class="row">
-                <div class="col-4">
-                  <span class="material-symbols-outlined">terminal</span>
-                  <h4>Programación orientada a objetos</h4>
-                  <p>En pogramación orientada a objetos tengo una fuerte estructura en C++.</p>
+              <div class="col">
+                <div class="card">
+                  <img src="/imagenes/LTspice.jpg" class="card-img-top" alt="imagen de protocolo LTspice">
+                  <div class="card-body">
+                    <h5 class="card-title">Simulación en LTspice</h5>
+                    <p class="card-text">experiencia en simulación de circuitos utilizando programas como LTspice y Multisim.</p>
+                  </div>
                 </div>
-                <div class="col-4">
-                  <span class="material-symbols-outlined">javascript</span>
-                  <h4>Programación en CSS</h4>
-                  <p>diseño de aplicaciones web.</p>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/imagenes/Python.png" class="card-img-top" alt="imagen de protocolo POO">
+                  <div class="card-body">
+                    <h5 class="card-title">Programación orientada a objetos</h5>
+                    <p class="card-text">amplios conocimientos en PPO como son C, C++, Python, JAVA</p>
+                  </div>
                 </div>
-                <div class="col-4">
-                  <span class="material-symbols-outlined">css</span>
-                  <h4>Programación en CSS</h4>
-                  <p>estilos para las páginas web que diseño.</p>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="/imagenes/HTML css js.png" class="card-img-top" alt="imagen de protocolo Front-End">
+                  <div class="card-body">
+                    <h5 class="card-title">Desarollador Front-End</h5>
+                    <p class="card-text">Desarollador de paginas webs utilizando HTML, CSS, y JavaScript</p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <section id="Educacion" class="section4">
-            <h4>PROXIMAMENTE</h4>
+          <section id='Educacion' class="section4">
+
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="col-12">
+                  <h4>Educación</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet suscipit dolores quaerat, sit
+                    possimus nulla dolor, nobis deserunt voluptatem magnam temporibus modi maxime animi fugiat obcaecati
+                    molestiae ex quisquam natus saepe quae nemo consequatur. Ea sit soluta dolore repellendus velit!
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-6">
+                  <!-- card -->
+                  <div class="card" style="width: 22rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Ingeniero Electrónico</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Universidad Tecnologica Nacional UTN f.r.c.
+                      </h6>
+                      <p class="card-text">2012-2023</p>
+                    </div>
+                  </div>
+                  <!-- card -->
+                </div>
+                <div class="col-6">
+                  <!-- card -->
+                  <div class="card" style="width: 22rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Ingeniero en computación</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">FCEFyN, UNC</h6>
+                      <p class="card-text">2019-presente</p>
+                    </div>
+                  </div>
+                  <!-- card -->
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <h4>Cursos</h4>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-6">
+                  <!-- card -->
+                  <div class="card" style="width: 22rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Curso de Front-End</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">UDEMY</h6>
+                      <p class="card-text">2023-presente</p>
+                    </div>
+                  </div>
+                  <!-- card -->
+                </div>
+                <div class="col-6">
+                  <!-- card -->
+                  <div class="card" style="width: 22rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Técnico en reparación de PC</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Ex profesor de A.E.S.</h6>
+                      <p class="card-text">2019-2021</p>
+                    </div>
+                  </div>
+                  <!-- card -->
+                </div>
+              </div>
+
+
+
+            </div> <!-- fin grill -->
+
+
           </section>
 
-          <section id="Portafolio" class="section5">
+          <!-- <section id="Portafolio" class="section5">
             <h4>PROXIMAMENTE</h4>
-          </section>
+          </section> -->
 
           <section id="Blog" class="section6">
             <div class="container-fluid">
@@ -177,17 +254,7 @@
 
                 </div>
               </div>
-
-
             </div>
-
-
-
-
-
-
-
-
 
             <h4>PROXIMAMENTE</h4>
           </section>
@@ -195,12 +262,12 @@
       </div>
 
 
-      </section>
+      
 
-      </main>
+      
     </div>
   </div>
-
+</main>
 
 
   <!-- <div class="container-fluid myfooter">

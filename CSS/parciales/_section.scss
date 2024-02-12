@@ -45,34 +45,44 @@ vertical-align: bottom;
 
 .section3 {
     background-color: whitesmoke;
-
-    h4 {
-        padding: 15px 15px;
+         h4{
+             padding: 15px 15px 7px 15px;
     }
 
-    div {
-        div {
-            div {
-                // display: flex;
-                 border: 2px double powderblue;
-                height: auto;
 
-                span{
-                    width:auto;
-                    height: auto;
-                }
 
-                h4{
-                    padding: 0;
-                    display: inline;
-                }
 
-                p{
-                    margin-top: 20px;
-                }
+    .bordes{
+        padding: 0px 20px 0px 20px;
+    }
+
+}
+
+.section4{
+    // background-color: whitesmoke;
+
+    div{
+        div{
+            h4{
+                padding: 15px 15px 7px 15px;
             }
         }
     }
+
+.col-6{
+    display: flex;
+    gap: 1rem;
+    grid-auto-rows: auto;
+    // grid-template-columns: repeat(auto-fill, minmax(40rem,1fr));
+
+    .card{
+         border-width: 2px ;
+         border-color: brown;
+    }
+    
+
+}
+    
 }
 
 

@@ -82,22 +82,23 @@ main section {
   background-color: whitesmoke;
 }
 .section3 h4 {
-  padding: 15px 15px;
+  padding: 15px 15px 7px 15px;
 }
-.section3 div div div {
-  border: 2px double powderblue;
-  height: auto;
+.section3 .bordes {
+  padding: 0px 20px 0px 20px;
 }
-.section3 div div div span {
-  width: auto;
-  height: auto;
+
+.section4 div div h4 {
+  padding: 15px 15px 7px 15px;
 }
-.section3 div div div h4 {
-  padding: 0;
-  display: inline;
+.section4 .col-6 {
+  display: flex;
+  gap: 1rem;
+  grid-auto-rows: auto;
 }
-.section3 div div div p {
-  margin-top: 20px;
+.section4 .col-6 .card {
+  border-width: 2px;
+  border-color: brown;
 }
 
 .section6 {
