@@ -46,3 +46,14 @@ header {
 .texto-nombre {
     top: 40%;
 }
+
+@media (max-width:850px){
+
+    header{
+        div{
+            a{
+                display: none;
+            }
+        }
+    }
+}
